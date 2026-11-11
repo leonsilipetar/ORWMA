@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul > li {
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+table {
+    background-color: rgb(228, 230, 230);
+    padding: 15px;
+    border-radius: 12px;
+}
