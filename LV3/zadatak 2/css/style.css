@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.todo {
+    background-color: #fcfad4;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+h1 {
+    border-bottom: 1px solid #000;
+}
+
+.unos {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#unos {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+}
+
+#dodaj {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#lista {
+    padding: 0;
+    list-style: none;
+}
+
+.zadatak {
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.obrisi {
+    flex: 0 0 auto;
+    padding: 0.25rem 0.5rem;
+    color: #fff;
+    background-color: #b42318;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.gotovo {
+    text-decoration: line-through;
+    background-color: #cccccc5a;
+    color: #666;
+}
