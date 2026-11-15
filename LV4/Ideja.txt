@@ -1,0 +1,23 @@
+Projektni zadatak (Web i mobilna aplikacija)
+
+Ideja: Sustav za organizaciju notnih zapisa i repertoara za zborove
+
+Naziv i koncept:
+    Naziv: Zboroteka
+    
+    Tijekom sv. mise ili nastupa, glazbenici i pjevači moraju listati mape i održavati redoslijed pjesama.
+    Često je nezgodno držati sve organizirano i u papirnatom i digitalnom obliku.
+
+    Zboroteka omogućuje glazbenicima digitalnu pohranu i organizaciju notnih zapisa u digitalnom obliku te kreiranje popisa za svaki nastup. Omogućuje pregled i prebacivanje između notnih zapisa bez pretraživanja mapa.
+
+Struktura:
+    Početna stranica
+        Predstavljanje sustava i brzi pristup trenutnom repertoaru
+
+    Knjižnica/Galerija nota
+        vizualni pregled dostupnih notnih zapisa u bazi
+
+    Repertoar i raspored
+        pregled planiranih nastupa i pripadajućih popisa pjesama
+    
+    Kontakt forma - predloži pjesmu
