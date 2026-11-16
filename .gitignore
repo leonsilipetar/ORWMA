@@ -1,0 +1,29 @@
+# Node.js ovisnosti i logovi
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Varijable okruženja (tajne, portovi, ključevi)
+.env
+.env.local
+.env.*.local
+
+# SQLite baza podataka i pomoćne datoteke
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+projekt/server/data/*
+!projekt/server/data/.gitkeep
+
+# Uploadani PDF-ovi i slike nota (da ne puniš repo s 500+ stranica)
+projekt/server/uploads/*
+!projekt/server/uploads/.gitkeep
+
+# IDE, editori i OS datoteke
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
